@@ -1,0 +1,39 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+     height: 100vh;
+     border: 5px solid goldenrod;
+     
+}
+.Home{
+    position: relative;
+   height: 350px;
+   border: 2px solid blue;
+   display: flex;
+   justify-content: space-around;
+   align-items: baseline;
+   background-image: url(./images/banner.jpg);
+   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+   background-position: center;
+   object-fit: cover;
+   width: 100%;
+   
+}
+
+.items{
+    display: flex;
+}
+.items li{
+    list-style-type: none;
+    padding: 0px  15px;
+    color: rgb(131, 38, 38);
+}
+.banner_text{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    color: white;
+}
