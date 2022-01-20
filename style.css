@@ -1,25 +1,29 @@
-html{
+*{
     margin: 0;
     padding: 0;
-}
-.container{
-     height: 100vh;
+} 
+.container{ 
+     
      border: 5px solid goldenrod;
      
 }
-.Home{
-    position: relative;
-   height: 350px;
+
+/*========***========
+       HOME
+ ========***========*/
+.home{
+   position: relative;
+   height: 45vh;
    border: 2px solid blue;
    display: flex;
    justify-content: space-around;
    align-items: baseline;
-   background-image: url(./images/banner.jpg);
+   background: url(./images/banner2.jpg);
    background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+
    background-position: center;
    object-fit: cover;
-   width: 100%;
+   
    
 }
 
@@ -36,4 +40,46 @@ html{
     left: 20%;
     top: 40%;
     color: white;
+}
+/*========***========
+       ABOUT  ME
+ ========***========*/
+ .about_Me{
+     display: flex;
+    
+ }
+ .aboutMe_left_text, .aboutMe_right_text{
+    flex: 1;
+    justify-content: space-between;
+ }
+
+
+/*========***========
+      EDUCATION
+ ========***========*/
+
+ table, tr ,td{
+     border: 1px solid black;
+ }
+
+ /*========***========
+      Industrial Attachment
+ ========***========*/
+
+.industrial_Attachment{
+    display: flex;
+}
+
+.industrial_left , .industrial_right{
+    flex: 1;
+}
+ /*========***========
+      work experince
+ ========***========*/
+
+.work_Expericence{
+    display: flex;
+}
+.experince_left, .experince_right{
+    flex: 1;
 }
