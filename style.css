@@ -98,15 +98,34 @@
      justify-content: space-around;
  }
  .top, .bottom{
-    margin: 5px;
+    margin: 2px;
  }
  .top img{
     
-     width: 100%;
-     height: 100%;
+     width: 50%;
+     height: 50%;
  }
  .bottom img{
     
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
  }
+
+ /*========***========
+      contact
+ ========***========*/
+ .section7{
+     border: 2px solid blue ;
+ }
+.contact_from{
+    display: flex;
+
+}
+.left, .right{
+    flex: 1;
+    border: 1px solid red;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
