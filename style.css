@@ -1,11 +1,19 @@
-*{
+ body{
     margin: 0;
     padding: 0;
-}  
-.container{ 
+}   
+.container-fluid{ 
+     height: auto;
+     /* border: 5px solid goldenrod; */
+     display: flex;
+     align-items: center;
+    justify-content: center;
      
-     border: 5px solid goldenrod;
-     
+}
+.container{
+    width: 90%;
+    background: linear-gradient(to right, rgba(224, 179, 179, 0), rgb(216, 143, 143)) ;
+    
 }
 
 /*========***========
@@ -14,14 +22,25 @@
 .home{
    position: relative;
    height: 450px;
-   border: 2px solid blue;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: baseline;
-   background: url(./images/banner4.jpg)  no-repeat center center / cover;
+   background: url(./images/banner10.jpg)  no-repeat center center / cover;
    object-fit: cover;
-   
-   
+}
+
+.logo{
+    margin-left: 35px;
+    
+}
+.logo h2{
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(42, 42, 218);
+    padding: 2px  6px;
+    background: #fff;
+    border-radius: 9px;
 }
 
 .items{
@@ -29,27 +48,79 @@
 }
 .items li{
     list-style-type: none;
-    padding: 0px  15px;
-    color: rgb(131, 38, 38);
+    padding: 0px  5px;
+   
+}
+.items li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 3px;
+    /* font-family:  Arial, Helvetica, sans-serif; */
+    font-family: Anton;
+    color: rgb(241, 52, 19);
+    letter-spacing: 1px;
+}
+.items li a:hover{
+    background: #fff;
+    border-radius: 8px;
+    padding: 5px;
 }
 .banner_text{
     position: absolute;
-    left: 20%;
+    left: 12%;
     top: 40%;
-    color: white;
+    color: #ebe9f3;
+    font-family: sans-serif;
+   
+    font-size: 20px;
+    
+}
+.banner_text h1{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.banner_text p{
+    padding: 8px 8px ;
+    margin:.5px 1px;
+    font-size: 15px;
+    letter-spacing: 1px;
+   
+}
+.banner_text  button{
+ padding: 10px 40px;
+ border-radius: 5px;
+ border: 1px solid #fff;
+ font-weight: bolder;
+ background-color: #87d88a;
+ color: white;
+ cursor: pointer;
+ letter-spacing: 1px;
 }
 /*========***========
        ABOUT  ME
  ========***========*/
  .about_Me{
      display: flex;
+     
     
  }
  .aboutMe_left_text, .aboutMe_right_text{
     flex: 1;
-    justify-content: space-between;
+   
+    /* justify-content: space-between; */
  }
-
+ .aboutMe_left_text h2{
+     font-family: monospace;
+     font-size: 30px;
+ }
+ .aboutMe_left_text p{
+    font-family: 'Merriweather', sans-serif;
+    
+ }
+.aboutMe_right_text{
+    padding-left: 40px;
+}
 
 /*========***========
       EDUCATION
@@ -89,7 +160,7 @@
       Gallery
  ========***========*/
  .gallery{
-     height: 300px;
+     height: auto;
  }
  .gallery_top, .gallery_bottom{
     display: flex;
