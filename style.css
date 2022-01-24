@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }  
-section{
+/* section{
     border: 1px solid red;
-} 
+}  */
 .container-fluid{ 
      height: auto;
      /* border: 5px solid goldenrod; */
@@ -14,8 +14,8 @@ section{
      
 }
 .container{
-    width: 90%;
-    background: linear-gradient(to right, rgba(224, 179, 179, 0), rgb(216, 143, 143)) ;
+    width: 85%;
+    background: linear-gradient(to right, rgba(223, 174, 174, 0), rgb(224, 189, 189)) ;
     
 }
 
@@ -28,7 +28,7 @@ section{
    display: flex;
    justify-content: space-between;
    align-items: baseline;
-   background: url(./images/banner10.jpg)  no-repeat center center / cover;
+   background: url(./images/banner9.jpg)  no-repeat center center / cover;
    object-fit: cover;
 }
 
@@ -104,10 +104,12 @@ section{
 /*========***========
        ABOUT  ME
  ========***========*/
+
  .about_Me{
      display: flex;
-     background: rgb(207, 218, 238);
-    height: 350px;
+     /* background: rgb(207, 218, 238); */
+     height: 350px;
+     padding: 20px;
  }
  .aboutMe_left_text, .aboutMe_right_text{
     flex: 1;
@@ -139,9 +141,11 @@ section{
  ========***========*/
 .education{
     height: 300px;
+    padding: 20px;
 }
  table, tr ,td{
-     border: 1px solid black;
+     /* border: 1px solid black; */
+     padding: 5px;
  }
  th {
     background-color: #84869e;
@@ -154,7 +158,8 @@ section{
 
 .industrial_Attachment{
     display: flex;
-    height: 300px;
+    height: 250px;
+    padding: 20px;
 }
 
 .industrial_left , .industrial_right{
@@ -167,13 +172,14 @@ section{
 .work_Expericence{
     display: flex;
     height: 300px;
+    padding: 20px;
 }
 .experince_left, .experince_right{
     flex: 1;
 }
 .experince_right img{
-    height: 65%;
-    width: 80%;
+    height: 70%;
+    width: 100%;
 }
 
  /*========***========
@@ -181,15 +187,18 @@ section{
  ========***========*/
  .gallery{
      height: auto;
+     padding: 20px;
  }
  .gallery_top, .gallery_bottom{
     display: flex;
    
      align-items: center;
-     justify-content: space-around;
+     justify-content: space-between;
  }
  .top, .bottom{
+    
     margin: 2px;
+    
  }
  .top img{
     
@@ -205,16 +214,17 @@ section{
  /*========***========
       contact
  ========***========*/
- .section7{
-     border: 2px solid blue ;
- }
+.contact_Me{
+    padding: 20px;
+    height: 200px;
+}
 .contact_from{
     display: flex;
 
 }
 .left, .right{
     flex: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .left{
     display: flex;
