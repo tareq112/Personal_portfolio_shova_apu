@@ -1,6 +1,7 @@
  body{
     margin: 0;
     padding: 0;
+    /* background: black; */
 }  
 /* section{
     border: 1px solid red;
@@ -15,8 +16,8 @@
 }
 .container{
     width: 85%;
-    background: linear-gradient(to right, rgba(223, 174, 174, 0), rgb(224, 189, 189)) ;
-    
+    background: linear-gradient(to left, rgba(134, 115, 115, 0), rgb(219, 161, 161)) ;
+    /* background: rgb(231, 228, 224); */
 }
 
 /*========***========
@@ -75,7 +76,7 @@
     top: 40%;
     font-family: sans-serif;
     font-size: 20px;
-    color: #8671da;
+    
     
 }
 .banner_text h1{
@@ -83,23 +84,27 @@
     margin: 0;
     letter-spacing: 1px;
     font-family: Fantasy;
+    color: rgba(12, 44, 114, 0.582);
 }
 .banner_text p{
     padding: 8px 8px ;
     margin:.5px 1px;
     font-size: 15px;
     letter-spacing: 1px;
+    color: rgba(12, 44, 114, 0.582);
+    font-weight: bold;
    
 }
 .banner_text  button{
- padding: 10px 40px;
+ padding: 10px 30px;
  border-radius: 5px;
- border: 1px solid #fff;
+ border: 1px solid #87d88a;
  font-weight: bolder;
  background-color: #87d88a;
  color: white;
  cursor: pointer;
  letter-spacing: 1px;
+
 }
 /*========***========
        ABOUT  ME
