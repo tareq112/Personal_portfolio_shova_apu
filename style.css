@@ -36,10 +36,12 @@ h1, h2, h3{
    align-items: baseline;
    background: url(./images/banner9.jpg)  no-repeat center center / cover;
    object-fit: cover;
+  
 }
 
 .logo{
     margin-left: 35px;
+    
     
 }
 .logo h2{
@@ -54,11 +56,11 @@ h1, h2, h3{
 
 .items{
     display: flex;
+    
 }
 .items li{
     list-style-type: none;
     padding: 0px  5px;
-   
 }
 .items li a{
     text-decoration: none;
@@ -232,11 +234,25 @@ h1, h2, h3{
     display: flex;
 
 }
-.left, .right{
+.left, .middle, .right{
     flex: 1;
     /* border: 1px solid red; */
 }
-.left{
-    display: flex;
-    flex-direction: column;
+h4{
+    padding-bottom: 8px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.left p, .middle p{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.right input[type=email], input[type=textarea], button{
+    padding: 3px;
+    width: 70%;
+    margin: 5px;
+
 }
