@@ -1,7 +1,7 @@
  body{
     margin: 0;
     padding: 0;
-    /* background: black; */
+    background: black;
 }  
 /* section{
     border: 1px solid red;
@@ -21,8 +21,8 @@ h1, h2, h3{
 }
 .container{
     width: 85%;
-    background: linear-gradient(to left, rgba(134, 115, 115, 0), rgb(219, 161, 161)) ;
-    /* background: rgb(231, 228, 224); */
+    /* background: linear-gradient(to left, rgba(134, 115, 115, 0), rgb(219, 161, 161)) ; */
+    background: linear-gradient(to bottom,rgb(213, 218, 216), rgb(219, 161, 161)) ;
 }
 
 /*========***========
@@ -52,6 +52,7 @@ h1, h2, h3{
     padding: 2px  6px;
     background: #fff;
     border-radius: 9px;
+    opacity: .7;
 }
 
 .items{
@@ -83,22 +84,25 @@ h1, h2, h3{
     top: 40%;
     font-family: sans-serif;
     font-size: 20px;
+    background: rgb(73, 52, 52);
+    opacity:.4 ;
+    padding: 30px;
+    border-radius: 5px;
     
     
 }
 .banner_text h1{
     padding: 0;
     margin: 0;
-    letter-spacing: 1px;
-    font-family: Fantasy;
-    color: rgba(12, 44, 114, 0.582);
+  font-family: sans-serif;
+    color: #fff;
 }
 .banner_text p{
     padding: 8px 8px ;
     margin:.5px 1px;
     font-size: 15px;
     letter-spacing: 1px;
-    color: rgba(12, 44, 114, 0.582);
+    color: #fff;
     font-weight: bold;
    
 }
@@ -107,7 +111,7 @@ h1, h2, h3{
  border-radius: 5px;
  border: 1px solid #87d88a;
  font-weight: bolder;
- background-color: #87d88a;
+ background-color: #08520b;
  color: white;
  cursor: pointer;
  letter-spacing: 1px;
@@ -177,6 +181,16 @@ h1, h2, h3{
 .industrial_left , .industrial_right{
     flex: 1;
 }
+.industrial_left li{
+    font-family: serif;
+    font-size: 18px;
+
+}
+
+.industrial_right p{
+    font-family: serif;
+    font-size: 18px;
+}
  /*========***========
       work experince
  ========***========*/
@@ -189,6 +203,11 @@ h1, h2, h3{
 .experince_left, .experince_right{
     flex: 1;
 }
+.experince_left p {
+    font-family: serif;
+    font-size: 18px;
+}
+
 .experince_right img{
     height: 70%;
     width: 100%;
@@ -255,4 +274,8 @@ h4{
     width: 70%;
     margin: 5px;
 
+}
+#send{
+    background: blueviolet;
+    padding: 20px;
 }
